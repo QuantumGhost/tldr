@@ -33,3 +33,7 @@
 - Find files modified in the last 7 days, and delete them:
 
 `find {{root_path}} -mtime {{-7}} -delete`
+
+- Find files with owner and group:
+
+`find {{root_path}} -user {{owner}} -group {{group}}`
